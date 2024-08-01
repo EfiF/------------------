@@ -71,7 +71,7 @@ def main():
             filename = input("Enter the file path to upload: ")
             upload_file(filename)
         elif choice == "2":
-            filename = input("Enter the filename to download: ")
+            filename = input("Enter the file name to download: ")
             download_file(filename)
         elif choice == "3":
             print("Exiting...")
