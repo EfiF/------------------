@@ -6,7 +6,7 @@ UPLOAD_FOLDER = r"E:\uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Define server address and port
-SERVER_ADDRESS = ('0.0.0.0', 65432)
+SERVER_ADDRESS = ('10.0.0.22', 65432)
 
 def handle_client_connection(client_socket, client_address):
     try:
