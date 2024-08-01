@@ -2,7 +2,8 @@ import socket
 import os
 
 # הגדר כתובת ופורט של השרת
-SERVER_ADDRESS = ('10.0.0.22', 65432)
+Ip = socket.gethostbyname(socket.gethostname())
+SERVER_ADDRESS = (f"{Ip}", 65432)
 
 def upload_file(filepath):
     # Check if the file exists
